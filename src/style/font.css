@@ -1,0 +1,24 @@
+@font-face {
+    font-family: PTSans;
+    src: url('../../font/PTS55F.ttf');
+}
+
+@font-face {
+    font-family: PTSansItalic;
+    src: url('../../font/PTS56F.ttf');
+}
+
+@font-face {
+    font-family: PTSansBold;
+    src: url('../../font/PTS75F.ttf');
+}
+
+@font-face {
+    font-family: PTSansBoldItalic;
+    src: url('../../font/PTS76F.ttf');
+}
+
+@font-face {
+    font-family:FredokaOne;
+    src: url('../../font/FredokaOne-Regular.ttf');
+}

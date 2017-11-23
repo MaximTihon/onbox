@@ -1,0 +1,28 @@
+<form id="form" onsubmit="ajaxVS({url:'http://onbox.dev/datm/product', res:false, idForm:'form'});return false">
+    <input type="hidden" name="proc" value="process">
+    <input type="hidden" name="action" value="add_product">
+    <input type="text" name="name_product">
+    <input type="text" name="article">
+    <input type="text" name="price">
+    <label for="id_category">id_category</label>
+    <select id="id_category" name="id_category">
+        <option>-</option>
+        {option_category}
+    </select>
+
+    <label for="id_brand">id_brand</label>
+    <select id="id_brand" name="id_brand">
+        <option>-</option>
+        {option_brand}
+    </select>
+
+    <textarea name="description_product"></textarea>
+    <input type="radio" name="active" value="1" checked>
+    <input type="radio" name="active" value="0">
+    <input type="file" name="main_pic">
+    <input type="file" name="min_pic_1">
+    <input type="file" name="min_pic_2">
+    <input type="file" name="min_pic_3">
+    <input type="file" name="min_pic_4">
+    <input type="submit" value="записать">
+</form>

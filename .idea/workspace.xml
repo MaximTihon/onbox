@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b37c3e41-968a-4099-8209-aa47164077dd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/FredokaOne-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/PTS55F.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/PTS56F.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/PTS75F.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/PTS76F.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/arrow_box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img-banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/joker.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pattern-OnBox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pattern2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/social.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sprite_icon_menu_toys.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sprite_social_cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sprite_status_product.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apache_access.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apache_error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base/base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base/db.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base/processor.ini.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/autoloader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/model/Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/project/content/About.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/project/content/Basket.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/project/content/Brands.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/project/content/Contacts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/project/content/Guarantee.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/project/content/Home.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/project/content/Order.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/project/content/Payment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/project/content/Shipping.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/project/content/Toys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/project/footer/Footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/project/header/Header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/project/header/Header_block.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/service/sCreatingObj.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/service/sFile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/service/sInitBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/service/sParseTmpl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/vs/IncTmpl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/vs/InitData.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/vs/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block/vs/Template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/browserconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migration/migration.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site.webmanifest" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/plugins.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/vendor/jquery-3.2.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/vendor/modernizr-3.5.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/style/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/style/font.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/style/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/style/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/content/about.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/content/basket.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/content/brands.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/content/contacts.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/content/guarantee.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/content/home.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/content/order.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/content/payment.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/content/shipping.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/content/toys.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/footer/footer.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/header/header.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/main/home.tmpl" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ViewProduct.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/block/incblock/ViewProduct.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="24" column="183" lean-forward="false" selection-start-line="24" selection-start-column="183" selection-end-line="24" selection-end-column="183" />
+              <folding>
+                <marker date="1511454165512" expanded="true" signature="456:578" ph="SELECT * FRO... product" />
+                <marker date="1511454165512" expanded="true" signature="456:584" ph="SELECT * FRO... product" />
+                <marker date="1511454165512" expanded="true" signature="456:585" ph="SELECT * FRO... product" />
+                <marker date="1511454165512" expanded="true" signature="456:609" ph="SELECT * FRO... product" />
+                <marker date="1511454165512" expanded="true" signature="456:624" ph="SELECT * FRO... product" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/block/project/content/Home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <element signature="e#125#162#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sInitBase.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/block/service/sInitBase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.tmpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/content/home.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.tmpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/content/home/products.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/block/vs/Model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="218" column="0" lean-forward="false" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+              <folding>
+                <marker date="1511436025010" expanded="true" signature="1062:1076" ph="SELECT * FRO... ${self::$table}" />
+                <marker date="1511436025010" expanded="true" signature="1133:1170" ph="SELECT * FRO... ${self::$table}" />
+                <marker date="1511436025010" expanded="true" signature="1650:1664" ph="SELECT * FRO... ${self::$table}" />
+                <marker date="1511436025010" expanded="true" signature="2279:2385" ph="INSERT INTO ${self::$table}... " />
+                <marker date="1511436025010" expanded="true" signature="2914:2928" ph="SELECT * FRO... ${self::$table}" />
+                <marker date="1511436025010" expanded="true" signature="4135:4147" ph="DELETE FROM " />
+                <marker date="1511436025010" expanded="true" signature="4224:4259" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product_item.tmpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/content/datm/inc/product_item.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>../img/</find>
+      <find>$data</find>
+      <find>$t</find>
+      <find>x</find>
+      <find>a</find>
+      <find>ajaxVs</find>
+      <find>ajaxV</find>
+      <find>ajax</find>
+      <find>aja</find>
+      <find>A</find>
+      <find>Aj</find>
+      <find>Aja</find>
+      <find>ans</find>
+      <find>answer</find>
+      <find>$arr</find>
+      <find>p</find>
+      <find>pas</find>
+      <find>pa</find>
+      <find>pares</find>
+      <find>pare</find>
+      <find>parse)</find>
+      <find>parse</find>
+      <find>parse_</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/block/service/sBrowser.php" />
+        <option value="$PROJECT_DIR$/block/vs/Cookie.php" />
+        <option value="$PROJECT_DIR$/block/model/Datm.php" />
+        <option value="$PROJECT_DIR$/block/project/content/datm/Brand.php" />
+        <option value="$PROJECT_DIR$/block/service/sCreatingObj.php" />
+        <option value="$PROJECT_DIR$/block/project/content/Reg.php" />
+        <option value="$PROJECT_DIR$/template/content/reg.tmpl" />
+        <option value="$PROJECT_DIR$/template/content/form.tmpl" />
+        <option value="$PROJECT_DIR$/template/content/form/add_form_product.tmpl" />
+        <option value="$PROJECT_DIR$/block/project/content/Form.php" />
+        <option value="$PROJECT_DIR$/src/style/default.css" />
+        <option value="$PROJECT_DIR$/template/content/datm/inc/add_form_product.tmpl" />
+        <option value="$PROJECT_DIR$/template/content/datm.tmpl" />
+        <option value="$PROJECT_DIR$/block/service/sParseTmpl.php" />
+        <option value="$PROJECT_DIR$/src/js/jquery.form.min.js" />
+        <option value="$PROJECT_DIR$/template/main/user.tmpl" />
+        <option value="$PROJECT_DIR$/src/js/main2.js" />
+        <option value="$PROJECT_DIR$/template/content/datm/form/add_form_category.tmpl" />
+        <option value="$PROJECT_DIR$/template/content/datm/category.tmpl" />
+        <option value="$PROJECT_DIR$/template/content/datm/form/edit_form_category.tmpl" />
+        <option value="$PROJECT_DIR$/template/content/datm/form/add_form_brand.tmpl" />
+        <option value="$PROJECT_DIR$/template/content/datm/option/category_option.tmpl" />
+        <option value="$PROJECT_DIR$/template/content/datm/brand.tmpl" />
+        <option value="$PROJECT_DIR$/template/content/datm/inc/category_item.tmpl" />
+        <option value="$PROJECT_DIR$/template/content/datm/inc/brand_item.tmpl" />
+        <option value="$PROJECT_DIR$/block/vs/Template.php" />
+        <option value="$PROJECT_DIR$/template/content/datm/form/edit_form_brand.tmpl" />
+        <option value="$PROJECT_DIR$/template/content/datm/product.tmpl" />
+        <option value="$PROJECT_DIR$/template/content/datm/option/brand_option.tmpl" />
+        <option value="$PROJECT_DIR$/block/model/Img_product.php" />
+        <option value="$PROJECT_DIR$/migration/migration.sql" />
+        <option value="$PROJECT_DIR$/template/content/datm/form/add_form_product.tmpl" />
+        <option value="$PROJECT_DIR$/block/service/sFile.php" />
+        <option value="$PROJECT_DIR$/template/content/datm/inc/product_item.tmpl" />
+        <option value="$PROJECT_DIR$/template/content/datm/form/edit_form_product.tmpl" />
+        <option value="$PROJECT_DIR$/block/vs/Model.php" />
+        <option value="$PROJECT_DIR$/block/trait/Order.php" />
+        <option value="$PROJECT_DIR$/block/trait/ViewProducts.php" />
+        <option value="$PROJECT_DIR$/block/incblock/ViewProducts.php" />
+        <option value="$PROJECT_DIR$/block/autoloader.php" />
+        <option value="$PROJECT_DIR$/src/js/main.js" />
+        <option value="$PROJECT_DIR$/block/project/content/Datm.php" />
+        <option value="$PROJECT_DIR$/template/content/home.tmpl" />
+        <option value="$PROJECT_DIR$/block/incblock/ViewProduct.php" />
+        <option value="$PROJECT_DIR$/template/content/home/products.tmpl" />
+        <option value="$PROJECT_DIR$/block/project/content/Home.php" />
+        <option value="&lt;f81056d3-37aa-466b-8ecd-099d48382da9&gt;/public_html/base/base.php" />
+        <option value="&lt;f81056d3-37aa-466b-8ecd-099d48382da9&gt;/public_html/block/autoloader.php" />
+        <option value="&lt;f81056d3-37aa-466b-8ecd-099d48382da9&gt;/public_html/block/vs/IncTmpl.php" />
+        <option value="&lt;f81056d3-37aa-466b-8ecd-099d48382da9&gt;/public_html/base/db.ini" />
+        <option value="&lt;f81056d3-37aa-466b-8ecd-099d48382da9&gt;/public_html/block/service/sInitBase.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="4" />
+    <option name="width" value="1920" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onbox.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onbox.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onbox.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onbox.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migration" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onbox.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onbox.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template/content/home" />
+      <recent name="$PROJECT_DIR$/template/content/datm/form" />
+      <recent name="$PROJECT_DIR$/block/model" />
+      <recent name="$PROJECT_DIR$/template/content/datm/option" />
+      <recent name="$PROJECT_DIR$/src/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/js/vendor" />
+      <recent name="$PROJECT_DIR$/template/content/datm/form_add" />
+      <recent name="$PROJECT_DIR$/template/content/datm/inc" />
+      <recent name="$PROJECT_DIR$/template/content/form" />
+      <recent name="$PROJECT_DIR$/template/content/datm" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b37c3e41-968a-4099-8209-aa47164077dd" name="Default" comment="" />
+      <created>1507114593781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1507114593781</updated>
+      <workItem from="1507114595509" duration="593000" />
+      <workItem from="1507118383503" duration="111000" />
+      <workItem from="1507137704794" duration="3472000" />
+      <workItem from="1507142389945" duration="460000" />
+      <workItem from="1508518743148" duration="180000" />
+      <workItem from="1508519021081" duration="4910000" />
+      <workItem from="1508595436078" duration="12361000" />
+      <workItem from="1508656530095" duration="9200000" />
+      <workItem from="1508681565396" duration="12825000" />
+      <workItem from="1508743449628" duration="52000" />
+      <workItem from="1508778932061" duration="3057000" />
+      <workItem from="1508827259214" duration="24000" />
+      <workItem from="1508952918279" duration="4573000" />
+      <workItem from="1508996757819" duration="73000" />
+      <workItem from="1509036645532" duration="9088000" />
+      <workItem from="1509093150621" duration="606000" />
+      <workItem from="1509218795188" duration="583000" />
+      <workItem from="1509251570944" duration="8589000" />
+      <workItem from="1509264538336" duration="4777000" />
+      <workItem from="1509278975601" duration="2280000" />
+      <workItem from="1509343145436" duration="33000" />
+      <workItem from="1509379763909" duration="1752000" />
+      <workItem from="1509381662525" duration="11565000" />
+      <workItem from="1509429317801" duration="636000" />
+      <workItem from="1509433855169" duration="607000" />
+      <workItem from="1509557948569" duration="863000" />
+      <workItem from="1509560038896" duration="4948000" />
+      <workItem from="1509602007885" duration="820000" />
+      <workItem from="1509637874920" duration="13625000" />
+      <workItem from="1509820136091" duration="6348000" />
+      <workItem from="1509857311667" duration="7514000" />
+      <workItem from="1509896345298" duration="6376000" />
+      <workItem from="1509983551982" duration="599000" />
+      <workItem from="1510033863675" duration="29349000" />
+      <workItem from="1510077202526" duration="1583000" />
+      <workItem from="1510125487156" duration="607000" />
+      <workItem from="1510158173422" duration="402000" />
+      <workItem from="1510163793010" duration="7952000" />
+      <workItem from="1510207085067" duration="311000" />
+      <workItem from="1510248364675" duration="3791000" />
+      <workItem from="1510298095092" duration="52000" />
+      <workItem from="1510509276575" duration="1255000" />
+      <workItem from="1510561232268" duration="245000" />
+      <workItem from="1510638837631" duration="608000" />
+      <workItem from="1510675191877" duration="12937000" />
+      <workItem from="1510730604220" duration="23000" />
+      <workItem from="1510758234260" duration="5172000" />
+      <workItem from="1510772345611" duration="967000" />
+      <workItem from="1510811399344" duration="109000" />
+      <workItem from="1510846827692" duration="6585000" />
+      <workItem from="1510941129077" duration="7129000" />
+      <workItem from="1510983341619" duration="599000" />
+      <workItem from="1511165019690" duration="29000" />
+      <workItem from="1511190985945" duration="15380000" />
+      <workItem from="1511243697293" duration="57000" />
+      <workItem from="1511282968645" duration="9596000" />
+      <workItem from="1511336235646" duration="440000" />
+      <workItem from="1511364684723" duration="10128000" />
+      <workItem from="1511418447063" duration="26651000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="275457000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="4" width="1920" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831" sideWeight="0.4957265" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22061966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/block/service/sParseTmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/content/reg.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/vendor/jquery.form.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="10" column="4930" lean-forward="false" selection-start-line="10" selection-start-column="4930" selection-end-line="10" selection-end-column="4930" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="137" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/content/datm/form/edit_form_category.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/content/datm/form/add_form_category.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="112" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/main/user.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="57" lean-forward="false" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/brand/image.jpg" />
+    <entry file="file://$PROJECT_DIR$/file/brand/image.jpeg" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_types.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/content/datm/option/category_option.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="54" lean-forward="true" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/brand/d41d8cd9.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/brand/d41d8cd9.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5790">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/content/datm/inc/brand_item.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block/vs/IncTmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="33" column="60" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/content/datm/brand.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/content/datm/form/add_form_brand.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/content/datm/product.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="914" column="9" lean-forward="false" selection-start-line="914" selection-start-column="9" selection-end-line="914" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/product/58/0d5b1c4c.jpg" />
+    <entry file="file://$PROJECT_DIR$/template/content/datm/form/edit_form_brand.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/content/datm/option/brand_option.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block/model/Img_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/content/datm/inc/category_item.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/product/8/7/bcd56693.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/product/8/7/64fedffb.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/product/8/7/9f360c5a.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/product/8/7/0d5b1c4c.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/content/datm/category.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block/vs/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block/service/sFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/product/8/9/0d5b1c4c.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/content/datm/form/add_form_product.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/product/10/11/64fedffb.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block/incblock/ViewProducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/content/datm/form/edit_form_product.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block/project/content/Datm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="192" column="0" lean-forward="true" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block/incblock/ViewProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="183" lean-forward="false" selection-start-line="24" selection-start-column="183" selection-end-line="24" selection-end-column="183" />
+          <folding>
+            <marker date="1511454165512" expanded="true" signature="456:578" ph="SELECT * FRO... product" />
+            <marker date="1511454165512" expanded="true" signature="456:584" ph="SELECT * FRO... product" />
+            <marker date="1511454165512" expanded="true" signature="456:585" ph="SELECT * FRO... product" />
+            <marker date="1511454165512" expanded="true" signature="456:609" ph="SELECT * FRO... product" />
+            <marker date="1511454165512" expanded="true" signature="456:624" ph="SELECT * FRO... product" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/db.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/content/datm/inc/product_item.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/content/home/products.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block/autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block/project/content/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#125#162#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block/service/sInitBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migration/migration.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/content/home.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block/vs/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="218" column="0" lean-forward="false" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+          <folding>
+            <marker date="1511436025010" expanded="true" signature="1062:1076" ph="SELECT * FRO... ${self::$table}" />
+            <marker date="1511436025010" expanded="true" signature="1133:1170" ph="SELECT * FRO... ${self::$table}" />
+            <marker date="1511436025010" expanded="true" signature="1650:1664" ph="SELECT * FRO... ${self::$table}" />
+            <marker date="1511436025010" expanded="true" signature="2279:2385" ph="INSERT INTO ${self::$table}... " />
+            <marker date="1511436025010" expanded="true" signature="2914:2928" ph="SELECT * FRO... ${self::$table}" />
+            <marker date="1511436025010" expanded="true" signature="4135:4147" ph="DELETE FROM " />
+            <marker date="1511436025010" expanded="true" signature="4224:4259" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
