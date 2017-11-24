@@ -1,0 +1,5 @@
+/.idea/*
+/file/*
+
+# except do not ignore .gitignore
+!.gitignore
