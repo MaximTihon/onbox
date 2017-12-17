@@ -50,11 +50,11 @@ class Model {
 
         if($add_request == null) {
 
-            $query = 'SELECT * FROM '.self::$table;
+            $query = 'SELECT * FROM `'.self::$table.'`';
 
         } else {
 
-            $query = 'SELECT * FROM '.self::$table.' WHERE '.$add_request;
+            $query = 'SELECT * FROM `'.self::$table.'` WHERE '.$add_request;
         }
 
 
@@ -80,7 +80,7 @@ class Model {
 
         $db = self::initBD();
 
-        $q =  $db->query('SELECT * FROM '.self::$table);
+        $q =  $db->query('SELECT * FROM `'.self::$table.'`');
 
         if(false === $q) {
 
@@ -109,7 +109,7 @@ class Model {
 
         }
 
-            $stmt = $db->prepare('INSERT INTO ' . self::$table . '(' . implode(', ', array_keys($list)) . ') VALUES (' . $place_holders . ')');
+            $stmt = $db->prepare('INSERT INTO `' . self::$table . '` (' . implode(', ', array_keys($list)) . ') VALUES (' . $place_holders . ')');
 
             $result = $stmt->execute($params);
 
@@ -137,7 +137,7 @@ class Model {
 
        $db = self::initBD();
 
-       $q =  $db->query('SELECT * FROM '.self::$table);
+       $q =  $db->query('SELECT * FROM `'.self::$table.'`');
 
         if(false === $q) {
 
@@ -167,13 +167,11 @@ class Model {
 
          if($add_request == null) {
 
-             $result = $db->exec( 'UPDATE '.self::$table.' SET '.$item);
+             $result = $db->exec( 'UPDATE `'.self::$table.'` SET '.$item);
 
          } else {
 
-             d('UPDATE '.self::$table.' SET '.$item.' WHERE '.$add_request);
-
-             $result = $db->exec( 'UPDATE '.self::$table.' SET '.$item.' WHERE '.$add_request);
+             $result = $db->exec( 'UPDATE `'.self::$table.'` SET '.$item.' WHERE '.$add_request);
 
          }
 

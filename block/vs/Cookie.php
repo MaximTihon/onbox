@@ -19,7 +19,7 @@ class Cookie {
 
         } else {
 
-            setcookie($name, $val, time()+ $time);
+            setcookie($name, $val, time()+ $time, '/');
         }
     }
 

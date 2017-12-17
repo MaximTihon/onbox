@@ -1,9 +1,9 @@
-<form id="form" onsubmit="ajaxVS({url:'http://onbox.dev/datm/category/', res:false, idForm:'form'});return false">
+<form id="form"  class="form-add" onsubmit="ajaxVS({url:'http://onbox.dev/datm/category/', res:false, idForm:'form'});return false">
     <input type="hidden" name="proc" value="process">
     <input type="hidden" name="action" value="add_category">
-    <input type="text" name="name_category">
-    <textarea name="description_category"></textarea>
-    <input type="radio" name="active" value="1" checked>
-    <input type="radio" name="active" value="0">
-    <input type="submit" value="записать">
+    <input type="text" class="form-control" name="name_category" placeholder="Имя категории">
+    <textarea  class="form-control" name="description_category" placeholder="Описания категории"></textarea>
+    <input type="radio" name="active" value="1" checked> Активный статус <br>
+    <input type="radio" name="active" value="0"> Не активный статус<br>
+    <input type="submit" class="btn btn-primary" value="Добавить">
 </form>

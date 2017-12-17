@@ -1,0 +1,17 @@
+<tr>
+    <td>{id_order}</td>
+    <td>{name}:</td>
+    <td>
+        <ul>
+            {product}
+        </ul>
+    </td>
+    <td>{phone}:</td>
+    <td>{address}:</td>
+    <td>{status}</td>
+    <td>{time}</td>
+    <td>{sum}</td>
+    <td>
+        <div style="cursor:pointer" onclick="ajaxVS({url:'http://onbox.dev/datm/processed_order', p:'proc=process&id={id_order}', res:false})">Обработан</div>
+    </td>
+</tr>

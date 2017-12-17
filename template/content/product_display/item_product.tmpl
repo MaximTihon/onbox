@@ -1,0 +1,80 @@
+<div class="wrapper-product">
+
+    <div class="pic-product">
+
+        <div class="main-pic">
+            <img src="/file/product/{id_brand}/{id_product}/{main_pic}" alt="{main_pic}">
+        </div>
+
+        <div class="min-pics">
+
+            {img_block}
+
+        </div>
+
+    </div>
+
+
+    <div class="status-product">
+        <!--<div class="shipping" title="Бесплатная доставка"></div>-->
+        <!--<div class="one-product" title="Бесплатная доставка"></div>-->
+        <!--<div class="new-product" title="Бесплатная доставка"></div>-->
+        <!--<div class="box-product" title="Бесплатная доставка"></div>-->
+        <!--<div class="gift-product" title="Бесплатная доставка"></div>-->
+    </div>
+
+
+    <div class="info-product">
+
+        <h1>{name_product}</h1>
+
+        <!--<div class="price sale">-->
+        <!--55 <span class="currency">бел.руб.</span>-->
+
+        <!--<div class="price-sale">-->
+        <!--<i></i>-->
+        <!-- <span class="currency">бел.руб.</span>-->
+        <!--</div>-->
+
+        <!--</div>-->
+
+        <div class="price">
+            {price} <span class="currency">бел.руб.</span>
+        </div>
+
+
+        <a href="javascript:void(0)" onclick="ajaxVS({url:'{patch_url}', p:'proc=process', callback:'cart'})">Положить в корзину</a>
+
+
+        <div class="product-description">
+
+            <div class="info-description">
+                Описание:<br>
+                {description_product}
+            </div>
+
+            <div class="parameter-description">
+
+                Характеристики:<br>
+
+                <div class="article">
+                    арт. N: {article}
+                </div>
+
+                <div class="age">
+                    Рекомендуемый возраст – 4-5 лет
+                </div>
+
+                <div class="gender">
+                    Пол: для мальчиков , для девочек
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</div>

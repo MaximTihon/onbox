@@ -1,0 +1,26 @@
+<form action="/datm/content">
+    <select name="page">
+        <option>--</option>
+        {option}
+    </select>
+
+    <input type="submit" value="Выбрать">
+</form>
+
+
+<form id="form_content" onsubmit="ajaxVS({url:'http://onbox.dev/datm/add_content', res:false, idForm:'form_content'});return false">
+
+    <input type="hidden" name="id_content" value="{id_content}">
+    <input type="hidden" name="proc" value="process">
+
+    <textarea name="content">{cont}</textarea>
+
+    <input type="submit" value="Добавить">
+
+</form>
+
+<style>
+
+    textarea{width: 100%;height:650px}
+
+</style>

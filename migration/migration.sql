@@ -1,3 +1,12 @@
+CREATE TABLE `content` (
+  `id_content` INT(2)  NOT NULL  AUTO_INCREMENT,
+  `name_content` VARCHAR(100),
+  `content` TEXT,
+  PRIMARY KEY(`id_content`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+ALTER TABLE account ADD `name` VARCHAR(255);
+
 CREATE TABLE `category`(
   `id_category` int(10) NOT NULL AUTO_INCREMENT,
   `name_category` VARCHAR(100) NOT NULL,
@@ -46,12 +55,15 @@ CREATE TABLE `static_view`(
   PRIMARY KEY (`id_product`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+ALTER TABLE `order` ADD status_order INT(1) DEFAULT 1;
+
 CREATE TABLE `order`(
-  `id_order` INT(10) NOT NULL AUTO_INCREMENT,
-  `id_product` INT(10) NOT NULL,
+  `id_order` INT(15)  NOT NULL AUTO_INCREMENT ,
   `data_order` TEXT,
-  PRIMARY KEY (`id_order`)
+  `date` TEXT,
+  PRIMARY KEY(`id_order`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 
 CREATE TABLE `account`(
   `id_account` INT(10)  NOT NULL AUTO_INCREMENT,
@@ -72,8 +84,10 @@ CREATE TABLE `product`(
   `id_brand` int(10) NOT NULL,
   `name_product` VARCHAR(100) NOT NULL ,
   `description_product` TEXT NOT NULL,
+  `mini_desc` TEXT NOT NULL,
   `status` INT(1) NOT NULL,
   `article` VARCHAR(50) NOT NULL,
+  `data_product` TEXT NULL,
   PRIMARY KEY (`id_product`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 

@@ -1,0 +1,39 @@
+
+<input form="form_cart" type="hidden" name="product_{id_product}" value="{id_product}">
+<input form="form_cart" type="hidden" name="count_{id_product}"  class="count_{id_product}" value="1">
+
+<div class="item-order">
+
+    <div class="img-order">
+        <img src="/file/product/{id_brand}/{id_product}/{main_pic}" alt="{main_pic}">
+    </div>
+
+    <div class="order-desc">
+
+        <h1>{name_product}</h1>
+
+        <p>
+            {mini_desc}
+        </p>
+
+    </div>
+
+    <div class="order-price">
+
+        <ul>
+            <li onclick="carts.oneMinus('{id_product}', '{price_product}')"> - </li>
+            <li>
+                <input type="text" class="count_order_{id_product}" value="1" disabled>
+            </li>
+            <li onclick="carts.onePlus('{id_product}', '{price_product}')"> + </li>
+        </ul>
+
+        <div class="price">
+            <div class="count_price price_{id_product}">{price}</div><span>руб.</span>
+        </div>
+
+    </div>
+
+        <a href="javascript:void(0)" onclick="ajaxVS({url:'{patch_url_cancel}', p:'proc=process'})"></a>
+
+</div>

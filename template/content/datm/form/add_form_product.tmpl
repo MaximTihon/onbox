@@ -1,28 +1,45 @@
 <form id="form" onsubmit="ajaxVS({url:'http://onbox.dev/datm/product', res:false, idForm:'form'});return false">
     <input type="hidden" name="proc" value="process">
     <input type="hidden" name="action" value="add_product">
-    <input type="text" name="name_product">
-    <input type="text" name="article">
-    <input type="text" name="price">
-    <label for="id_category">id_category</label>
-    <select id="id_category" name="id_category">
-        <option>-</option>
+
+
+    <input type="text" name="name_product" placeholder="Имя прадукта" class="form-control">
+    <input type="text" name="article" placeholder="артикул" class="form-control">
+    <input type="number" name="price" placeholder="Цена" class="form-control">
+
+    <select id="id_category" name="id_category" class="form-control">
+        <option value="0"> Категория</option>
         {option_category}
     </select>
 
-    <label for="id_brand">id_brand</label>
-    <select id="id_brand" name="id_brand">
-        <option>-</option>
+    <select id="id_brand" name="id_brand" class="form-control">
+        <option value="0">Подкатегория</option>
         {option_brand}
     </select>
+    <hr>
+    <textarea name="mini_desc" placeholder="Краткое описание" class="form-control"></textarea>
+    <textarea name="description_product" placeholder="Описание продукта" class="form-control"></textarea><br>
+    <span>Рекомендованный возрост</span>
+    <input type="number" name="age" class="form-control" value="0"> <br><br>
 
-    <textarea name="description_product"></textarea>
-    <input type="radio" name="active" value="1" checked>
-    <input type="radio" name="active" value="0">
-    <input type="file" name="main_pic">
-    <input type="file" name="min_pic_1">
-    <input type="file" name="min_pic_2">
-    <input type="file" name="min_pic_3">
-    <input type="file" name="min_pic_4">
+    <label for="woman"> Для девочек:
+        <input id="woman" type="checkbox" name="woman" value="1" checked>
+    </label>
+
+    <label for="man"> Для мальчеков:
+        <input id="man" type="checkbox" name="man" value="1" checked>
+    </label>
+
+    <hr>
+    <p>Статус товара</p>
+
+    Поквазывать:    <input type="radio" name="active" value="1" checked>
+    Не показывать: <input type="radio" name="active" value="0"> <br><br>
+
+    Основная картинка: <input type="file" name="main_pic"> <br>
+    Pic1: <input type="file" name="min_pic_1"> <br>
+    Pic2: <input type="file" name="min_pic_2"> <br>
+    Pic3: <input type="file" name="min_pic_3"> <br>
+    Pic4: <input type="file" name="min_pic_4"> <br>
     <input type="submit" value="записать">
 </form>

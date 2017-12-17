@@ -1,0 +1,22 @@
+@import "font.css";
+
+.show_modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0, 0, 0, 0.5)}
+#show_modal{position:absolute;width:80%;height:100%;background-color:#fff;top:0;left:50%;margin-left:-40%;overflow-y:scroll}
+
+html, body{height:100%}
+
+.registr{width:100%;height:100%;display:flex;justify-content:center;align-items:center}
+.registr form{width:300px;height:150px;display:flex;flex-direction:column;justify-content:space-between}
+
+
+.content{max-width:1250px;min-width:750px;width:auto;margin: 0 auto}
+
+.nav-user{display:flex;flex-direction:row;width:100%;justify-content:space-between;background-color: #e8f3ff;height:40px;border-radius:8px;margin-top:25px;align-items:center}
+.nav-user li{list-style:none}
+.nav-user li a{list-style:none;background-color: #e8f3ff;padding:5px 10px}
+
+.form-add input{margin-bottom:15px}
+
+
+.show_modal form input, .show_modal form select, .show_modal form textarea{margin: 3px 0}
+.tbl-file-add tr td>input{width:210px}

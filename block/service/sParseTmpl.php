@@ -46,3 +46,11 @@ class sParseTmpl {
         return self::$html;
     }
 }
+
+
+//foreach ($v[0] as $val) {
+//
+//    $key = trim($val,'{}');
+//
+//    $html = str_replace($val, self::$vars[$key], $content);
+//}

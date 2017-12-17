@@ -1,5 +1,14 @@
-<li>
-    {id_product} {name_product} {article}
-    <div style="cursor:pointer" onclick="ajaxVS({url:'http://onbox.dev/datm/product/', p:'action=unset_product&proc=process&id={id_product}',res:false})">Удалить</div>
-    <div style="cursor:pointer" onclick="ajaxVS({url:'http://onbox.dev/datm/edit_form_product/', p:'proc=process&id={id_product}', res:true})">Изменить</div>
-</li>
+<tr>
+    <td>{id_product}</td>
+    <td>{id_category}</td>
+    <td>{id_brand}</td>
+    <td>{name_product}</td>
+    <td>{article}</td>
+    <td>{status}</td>
+    <td>{price_product} б.р.</td>
+    <td><img src="/file/product/{id_brand}/{id_product}/{main_pic}" alt="{main_pic}" width="80" height="80"></td>
+    <td>
+        <div style="cursor:pointer" onclick="ajaxVS({url:'http://onbox.dev/datm/product/', p:'action=unset_product&proc=process&id={id_product}',res:false})">Удалить</div>
+        <div style="cursor:pointer" onclick="ajaxVS({url:'http://onbox.dev/datm/edit_form_product/', p:'proc=process&id={id_product}', res:true})">Изменить</div>
+    </td>
+</tr>

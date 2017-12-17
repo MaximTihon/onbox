@@ -1,10 +1,12 @@
-<li>
-    {id_brand}<br>
-    {id_category}<br>
-    {name_brand}<br>
-    {description_brand}<br>
-    {img_brand}<br>
-    {active}<br>
-    <div style="cursor:pointer" onclick="ajaxVS({url:'http://onbox.dev/datm/brand/', p:'action=unset_brand&proc=process&id={id_brand}',res:false})">Удалить</div>
-    <div style="cursor:pointer" onclick="ajaxVS({url:'http://onbox.dev/datm/edit_form_brand/', p:'proc=process&id={id_brand}', res:true})">Изменить</div>
-</li>
+<tr>
+    <td>{id_brand}</td>
+    <td>{id_category}</td>
+    <td>{name_brand}</td>
+    <td>{description_brand}</td>
+    <td>{active}</td>
+    <td>{img_brand}</td>
+    <td>
+        <div style="cursor:pointer" onclick="ajaxVS({url:'http://onbox.dev/datm/brand/', p:'action=unset_brand&proc=process&id={id_brand}',res:false})">Удалить</div>
+        <div style="cursor:pointer" onclick="ajaxVS({url:'http://onbox.dev/datm/edit_form_brand/', p:'proc=process&id={id_brand}', res:true})">Изменить</div>
+    </td>
+</tr>
