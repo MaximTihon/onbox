@@ -2,47 +2,96 @@
     <input type="hidden" name="proc" value="process">
     <input type="hidden" name="action" value="edit_product">
     <input type="hidden" name="id_product" value="{id_product}">
-    <input type="text" name="name_product" value="{name_product}">
-    <input type="text" name="article" value="{article}">
-    <label for="id_category">id_category</label>
-    <select id="id_category" name="id_category">
-        <option value="{id_category}">{name_category}</option>
+
+    <label for="name_product">Названия:</label>
+    <input id="name_product" type="text" name="name_product" value="{name_product}" class="form-control">
+    <label for="article">Артикал:</label>
+    <input id="article" type="text" name="article" value="{article}" class="form-control">
+    <label for="id_category">Категория</label>
+    <select id="id_category" name="id_category" class="form-control">
+        <option value="{id_category}">{category}</option>
         {option_category}
     </select>
 
-    <label for="id_brand">id_brand</label>
-    <select id="id_brand" name="id_brand">
-        <option value="{id_brand}">{name_brand}</option>
+    <label for="id_brand">Подкатегория</label>
+    <select id="id_brand" name="id_brand" class="form-control">
+        <option value="{id_brand}">{brand}</option>
         {option_brand}
     </select>
 
-    <textarea name="description_product">{description_product}</textarea>
-    <input type="radio" name="active" value="1" checked>
-    <input type="radio" name="active" value="0">
+    <label for="mini_desc">Краткое описание</label>
+    <textarea id="mini_desc" name="mini_desc" class="form-control">{mini_desc}</textarea>
+
+    <label for="description_product">Полное описание</label>
+    <textarea id="description_product" name="description_product" class="form-control">{description_product}</textarea>
+
+    <span>Рекомендованный возрост</span>
+    <input type="number" name="age" class="form-control" value="{age}">
+
+    <label for="woman"> Для девочек:
+        <input id="woman" type="checkbox" name="woman" value="1" {woman_c}>
+    </label>
+
+    <label for="man"> Для мальчеков:
+        <input id="man" type="checkbox" name="man" value="1" {man_c}>
+    </label>
+
+
+    <p>Статус товара</p>
+
+    Поквазывать:    <input type="radio" name="active" value="1" checked>
+    Не показывать: <input type="radio" name="active" value="0"> <br><br>
+
     <input type="submit" value="записать">
 </form>
 <hr>
-
-{main_pic} {min_pic_1} {min_pic_2} {min_pic_3} {min_pic_4}
 
 <form id="form_file" onsubmit="ajaxVS({url:'http://onbox.dev/datm/product', res:false, idForm:'form_file'});return false">
     <input type="hidden" name="proc" value="process">
     <input type="hidden" name="action" value="edit_file_product">
     <input type="hidden" name="id_product" value="{id_product}">
     <input type="hidden" name="id_brand" value="{id_brand}">
-    <input type="file" name="main_pic">
-    <input type="file" name="min_pic_1">
-    <input type="file" name="min_pic_2">
-    <input type="file" name="min_pic_3">
-    <input type="file" name="min_pic_4">
+
+<table class="tbl-file-add">
+    <tr>
+        <th> Основная картинка:</th>
+        <th> Pic1:</th>
+        <th> Pic2:</th>
+        <th> Pic3:</th>
+        <th> Pic4:</th>
+    </tr>
+
+    <tr>
+        <td><img src="/file/product/{id_brand}/{id_product}/{main_pic}" alt="{main_pic}" width="80" height="80"></td>
+        <td><img src="/file/product/{id_brand}/{id_product}/{min_pic_1}" alt="min_pic_1" width="80" height="80"></td>
+        <td><img src="/file/product/{id_brand}/{id_product}/{min_pic_2}" alt="min_pic_2" width="80" height="80"></td>
+        <td><img src="/file/product/{id_brand}/{id_product}/{min_pic_3}" alt="min_pic_3" width="80" height="80"></td>
+        <td><img src="/file/product/{id_brand}/{id_product}/{min_pic_4}" alt="min_pic_4" width="80" height="80"></td>
+    </tr>
+
+    <tr>
+        <td><input type="file" name="main_pic"></td>
+        <td><input type="file" name="min_pic_1"></td>
+        <td><input type="file" name="min_pic_2"></td>
+        <td> <input type="file" name="min_pic_3"></td>
+        <td><input type="file" name="min_pic_4"> </td>
+    </tr>
+
+
+</table>
     <input type="submit" value="записать">
 </form>
+
 <hr>
 <form id="form_price" onsubmit="ajaxVS({url:'http://onbox.dev/datm/product', res:false, idForm:'form_price'});return false">
     <input type="hidden" name="proc" value="process">
     <input type="hidden" name="action" value="edit_price_product">
     <input type="hidden" name="id_product" value="{id_product}">
-    <input type="text" name="price_product" value="{price_product}">
-    <input type="text" name="sale_product" value="{sale_product}">
+    <label for="price_product">Цена:</label>
+    <input id="price_product" type="number" name="price_product" value="{price_product}" class="form-control">
+    <label for="sale_product">Скидки:</label>
+    <input  id="sale_product" type="text" name="sale_product" value="{sale_product}" class="form-control" disabled>
     <input type="submit" value="записать">
 </form>
+
+

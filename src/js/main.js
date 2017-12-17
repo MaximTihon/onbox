@@ -48,8 +48,10 @@ function ajaxVS(data) {
         url: data.url || 'http://onbox.dev/',
         type: data.type || 'post',
         data: data.p || false,
+        callback: data.callback || null,
         res: data.res || false,
         idForm: data.idForm || false
+
     };
 
     ajax(param);
@@ -76,52 +78,67 @@ function ajax(param) {
         }
 
 
-        xmlHttp.onreadystatechange = function () {
+        if(param.callback != null) {
 
-            if(param.res == true) {
+            xmlHttp.onreadystatechange = function () {
 
                 if (xmlHttp.readyState == 4) {
 
-                    if (xmlHttp.status == 200) {
+                    if (typeof param.callback == 'string') {
 
-                        var arr = [];
+                         eval(param.callback + "()");
+                    }
+                }
+            }
 
+        } else {
 
-                        var text = parsText(xmlHttp.response);
+            xmlHttp.onreadystatechange = function () {
 
-                        var obj = JSON.parse(text[0]);
+                if(param.res == true) {
 
-                        if (!obj.html) {
+                    if (xmlHttp.readyState == 4) {
 
-                            var i = 0;
-                            for (key in obj) {
+                        if (xmlHttp.status == 200) {
 
-                                arr[i] = key + '=' + obj[key];
+                            var arr = [];
 
-                                i++;
+                            var text = parsText(xmlHttp.response);
+
+                            var obj = JSON.parse(text[0]);
+
+                            if (!obj.html) {
+
+                                var i = 0;
+                                for (key in obj) {
+
+                                    arr[i] = key + '=' + obj[key];
+
+                                    i++;
+                                }
+
+                                q = arr.join('&');
+
+                                // window.location.search = q;
+
+                            }  else {
+
+                                document.getElementsByClassName('show_modal')[0].style.display = "block";
+                                document.getElementById('show_modal').innerHTML = obj.html;
                             }
-
-                            q = arr.join('&');
-
-                            // window.location.search = q;
 
                         } else {
 
-                            document.getElementsByClassName('show_modal')[0].style.display = "block";
-                            document.getElementById('show_modal').innerHTML = obj.html;
+                            alert('Ошибка сервира');
                         }
-
-                    } else {
-
-                        alert('Ошибка сервира');
                     }
+                } else {
+
+                     location.reload();
                 }
-            } else {
 
-                 location.reload();
-            }
-
-        };
+            };
+        }
 
         xmlHttp.send(p);
     }
@@ -134,7 +151,195 @@ function parsText(text) {
 }
 
 
+var cart = function(p) {
 
+     text = parsText(xmlHttp.response);
+     var obj = JSON.parse(text[0]);
+
+     document.querySelectorAll('.wrapper-message-cart')[0].style.display = 'flex';
+
+     // document.getElementById('message-cart').style.display = 'block';
+     document.getElementById('message-cart').innerHTML = obj.message;
+
+     return false;
+}
+
+
+var showMailBlock = function () {
+
+    var obj = document.getElementById('mail-block');
+
+    if(obj.style.display == 'block') {
+
+        obj.style.display = 'none';
+
+    } else {
+
+        obj.style.display = 'block';
+    }
+
+}
+
+var mailBlock = function () {
+
+    var obj = document.querySelector('.mail-block>.form');
+
+    obj.innerHTML = '<div class="close-form" onclick="showMailBlock()">x</div> <div class="mail-block-add">Вы подписались на рассылку onBox.by</div>';
+}
+
+
+var toys = {
+
+     showBlock: function () {
+
+         var obj = document.querySelectorAll('.wrapper-toys');
+         var arr = document.querySelectorAll('.arrow-menu');
+
+         if(obj[0].style.display === 'none' || obj[0].style.display === '' ) {
+
+             obj[0].style.display = 'flex';
+             arr[0].style.backgroundPosition = '0 -17px';
+         }
+    },
+
+    hideBlock: function () {
+
+        var obj = document.querySelectorAll('.wrapper-toys');
+        var arr = document.querySelectorAll('.arrow-menu');
+
+        if(obj[0].style.display === 'flex') {
+
+            obj[0].style.display = 'none';
+            arr[0].style.backgroundPosition = '0 0';
+        }
+    },
+
+    getBlockToys: function(id) {
+
+         ajaxVS({url:'http://onbox.dev/toys/get_toys/'+id, p:'proc=process', callback:'SetBlockToys'});
+
+    }
+}
+
+
+
+function SetBlockToys() {
+
+    var answer =  parsText(xmlHttp.response);
+    var html = '';
+    var ar = [];
+    var obj = document.querySelectorAll('#category-toys');
+
+   if(answer) {
+
+       ar = JSON.parse(answer[0]);
+
+       for( var val in ar['answer']) {
+
+         var p = ar['answer'][val];
+
+         var tg =  document.createElement('li');
+
+            tg.setAttribute('onclick', 'location.assign(\'/showcase/brand/'+p.id_brand+'\')');
+            tg.innerHTML = '<h1>'+p.name_brand+'</h1><div class="img-block-toys"><img src="/file/brand/'+p.img_brand+'" alt="'+p.name_brand+'"></div>';
+
+               html += tg.outerHTML;
+       }
+
+       if(html !== '') {
+
+           obj[0].innerHTML = html;
+       }
+
+   } else {
+
+       obj[0].innerHTML = 'Подкатегории еще не добавили';
+   }
+}
+
+
+var hide = {
+
+    modal_dialog : function (cls) {
+
+        document.querySelectorAll('.'+cls)[0].style.display = 'none';
+
+    }
+}
+
+var carts = {
+
+    sumPrice: function () {
+
+       var obj = document.querySelectorAll('.count_price');
+
+       if(obj) {
+
+           var s = 0;
+
+           for (var k in obj) {
+
+               if(!isNaN(Number(obj[k].innerHTML))) {
+
+                   s += Number(obj[k].innerHTML) ;
+               }
+           }
+
+           document.querySelector('.sum_order').value = s;
+           document.querySelector('.finish-price').innerHTML = 'ИТОГО: '+ s + ' руб'
+       }
+
+    },
+
+    onePlus: function (id, price) {
+
+       var count = ++document.querySelector('.count_order_'+id).value;
+       var obj = document.querySelector('.price_'+id);
+
+        document.querySelector('.count_'+id).value = count;
+
+        obj.innerHTML = count * price;
+
+        carts.sumPrice();
+    },
+
+    oneMinus: function (id,price) {
+
+        if(document.querySelector('.count_order_'+id).value != 1) {
+
+            var count = --document.querySelector('.count_order_'+id).value;
+            var obj = document.querySelector('.price_'+id);
+
+            document.querySelector('.count_'+id).value = count;
+
+            obj.innerHTML = count * price;
+
+            carts.sumPrice();
+        }
+    }
+}
+
+var productDisplay = {
+
+    miniPic: function(image) {
+
+        var obj = document.querySelector('.main-pic>img');
+
+        obj.setAttribute('src', image);
+    },
+
+    increasePic: function () {
+
+        var obj = document.querySelector('.main-pic>img');
+
+    }
+}
+
+
+function addPageProduct() {
+
+    d(10);
+}
 
 
 

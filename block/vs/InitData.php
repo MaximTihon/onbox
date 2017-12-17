@@ -63,14 +63,12 @@ class InitData {
 
     private function chekData($ar) {
 
+        $arr = [];
+
         foreach ($ar as $key => $val) {
 
             $arr[htmlentities(trim($key))] = htmlentities(trim($val));
-        }
 
-        if($_SERVER['REQUEST_METHOD'] == 'GET'){
-
-            array_shift($arr);
         }
 
         return $arr;

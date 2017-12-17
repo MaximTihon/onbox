@@ -1,5 +1,10 @@
-<li>
-    {id_category} {name_category} {description_category} {action}
-    <div style="cursor:pointer" onclick="ajaxVS({url:'http://onbox.dev/datm/category/', p:'action=unset_category&proc=process&id={id_category}',res:false})">Удалить</div>
-    <div style="cursor:pointer" onclick="ajaxVS({url:'http://onbox.dev/datm/edit_form_category/', p:'proc=process&id={id_category}', res:true})">Изменить</div>
-</li>
+<tr>
+    <td>{id_category}</td>
+    <td>{name_category}</td>
+    <td>{description_category}</td>
+    <td>{active}</td>
+    <td>
+        <div style="cursor:pointer" onclick="ajaxVS({url:'http://onbox.dev/datm/category/', p:'action=unset_category&proc=process&id={id_category}',res:false})">Удалить</div>
+        <div style="cursor:pointer" onclick="ajaxVS({url:'http://onbox.dev/datm/edit_form_category/', p:'proc=process&id={id_category}', res:true})">Изменить</div>
+    </td>
+</tr>

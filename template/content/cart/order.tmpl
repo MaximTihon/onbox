@@ -1,0 +1,41 @@
+<div class="content cart-block">
+
+    <form id="form_cart" action="{patch}order" method="post">
+
+        {item_order}
+
+
+        <div class="form-data-order">
+
+            <input type="text" name="name" placeholder="Ваше имя" required>
+
+            <input type="text" name="phone" placeholder="Ваш номер телефона" required>
+
+            <textarea name="address" placeholder="Укажите Ваш адрес доставки"></textarea>
+
+
+            <div class="finish-price">
+
+                Итого:
+
+            </div>
+
+            <input type="hidden" class="sum_order" name="sum_order" value="0">
+
+            <input type="submit" value="Заказать" form="form_cart">
+
+        </div>
+
+    </form>
+
+</div>
+
+<script>
+
+    window.onload = function () {
+
+
+        carts.sumPrice();
+    }
+
+</script>

@@ -1,4 +1,38 @@
+
+<div id="mail-block" class="mail-block">
+
+
+    <div class="form">
+
+        <div class="close-form" onclick="showMailBlock()">x</div>
+
+        <form id="form" onsubmit="mailBlock();ajaxVS({url:'http://onbox.dev/', res:false, idForm:'form'}); return false;">
+            <input type="hidden" name="proc" value="process">
+            <input type="hidden" name="action" value="add_person">
+            <input type="text" name="email" placeholder="Ваш Email" required>
+            <input type="text" name="name" placeholder="Ваше Имя" required>
+            <input type="submit" value="ok">
+        </form>
+
+    </div>
+
+</div>
+
+<div class="info-banner">
+
+    <a href="javascript:void(0)" class="close-info-banner" onclick="hide.modal_dialog('info-banner')">x</a>
+
+    Дорогие друзья! Мы заранее приносим извинения.<br>
+    Сайт находится еще в стадии доработки.<br>
+    В случае каких то проблем напишите нам  в группе в Вконтакте.<br>
+    Спасибо Вам за понимания! Приятных покупок!
+
+</div>
+
+
 <header>
+
+
     <div class="top">
 
     </div>
@@ -16,20 +50,21 @@
             <div class="nav">
 
                 <div class="search">
-                    <form action="">
+                    <form action="" onsubmit="alert('Приносим, свои извинения! Данный раздел находится еще в разработке. Напишите нам пожалуйста в ВК, в нижнем правом углу. Мы постараемся Вам помочь')">
                         <input type="text">
                         <input type="submit" value="">
                     </form>
                 </div>
 
                 <div class="cart">
-                    <a href="#"></a>
-                    <span>5</span>
+                    <a href="{scr_uri}/cart"></a>
+                    {count_cart}
                 </div>
 
+
                 <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    <li class="vk"><a href="https://vk.com/toyboxby" target="_blank"></a></li>
+                    <!--<li><a href="#"></a></li>-->
                 </ul>
             </div>
 
@@ -46,16 +81,9 @@
                     в магазин onBox.by
                 </h1>
                 <p>
-                    Далеко-далеко за словесными горами в
-                    стране гласных и согласных живут рыбные тексты.
-                    Вдали от всех живут они в буквенных домах
-                    на берегу Семантика большого языкового океана.
-                    Маленький ручеек Даль журчит по всей стране
-                    и обеспечивает ее всеми необходимыми правилами.
-                    Эта парадигматическая страна, в которой жаренные члены
-                    предложения залетают прямо в рот.
+                    {content}
                 </p>
-                <a href="/test">Подписаться</a>
+                <a href="javascript:void(0)" onclick="ajaxVS({p:'proc=process', callback:'showMailBlock'})">Подписаться</a>
             </div>
 
             <div class="img-banner">
@@ -68,27 +96,9 @@
     <div class="bottom">
 
         <menu class="content">
+
             <li>
-                <a href="javascript:void(0)" onMouseOver="menu.showMenu('toys')" class="toys">Игрушки</a>
-                <div id="toys" class="no-block drop-down-box">
-                    <ul>
-                        <li><a href="#">Lego</a></li>
-                        <li><a href="#">Funko pop</a></li>
-                        <li><a href="#">Куклы</a></li>
-                        <li><a href="#">Машинки</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                <a href="#">Брэнды</a>
-                <div id="brand" class="no-block drop-down-box">
-                    <ul>
-                        <li><a href="#">Lego</a></li>
-                        <li><a href="#">Funko pop</a></li>
-                        <li><a href="#">Куклы</a></li>
-                        <li><a href="#">Машинки</a></li>
-                    </ul>
-                </div>
+                <a href="javascript:void(0)" onmousemove="toys.showBlock()" onmouseout="toys.hideBlock()" class="btn-toys">Игрушки</a><i class="arrow-menu"></i>
             </li>
             <li><a href="{scr_uri}/" class="active">Главаная</a></li>
             <li><a href="{scr_uri}/about">О Нас</a></li>
@@ -101,3 +111,6 @@
     </div>
 
 </header>
+
+
+

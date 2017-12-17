@@ -4,15 +4,31 @@ return array(
     '' => [
 
         'main'    => 'home',
-        'content' => 'home',
+        'content' => 'toys_block;home',
         'header'  => '',
+        'footer'  => 'footer',
+    ],
+
+    'cart' => [
+
+        'main'    => 'home',
+        'content' => 'toys_block;cart',
+        'header'  => 'header_block',
+        'footer'  => 'footer',
+    ],
+
+    'product_display' => [
+
+        'main'    => 'home',
+        'content' => 'toys_block;product_display',
+        'header'  => 'header_block',
         'footer'  => 'footer',
     ],
 
     'about' => [
 
         'main'    => 'home',
-        'content' => 'about',
+        'content' => 'toys_block;about',
         'header'  => 'header_block',
         'footer'  => 'footer',
     ],
@@ -20,7 +36,15 @@ return array(
     'contacts' => [
 
         'main'    => 'home',
-        'content' => 'contacts',
+        'content' => 'toys_block;contacts',
+        'header'  => 'header_block',
+        'footer'  => 'footer',
+    ],
+
+    'showcase' => [
+
+        'main'    => 'home',
+        'content' => 'toys_block;showcase',
         'header'  => 'header_block',
         'footer'  => 'footer',
     ],
@@ -28,7 +52,7 @@ return array(
     'payment' => [
 
         'main'    => 'home',
-        'content' => 'payment',
+        'content' => 'toys_block;payment',
         'header'  => 'header_block',
         'footer'  => 'footer',
     ],
@@ -36,7 +60,7 @@ return array(
     'shipping' => [
 
         'main'    => 'home',
-        'content' => 'shipping',
+        'content' => 'toys_block;shipping',
         'header'  => 'header_block',
         'footer'  => 'footer',
     ],
@@ -44,7 +68,7 @@ return array(
     'guarantee' => [
 
         'main'    => 'home',
-        'content' => 'guarantee',
+        'content' => 'toys_block;guarantee',
         'header'  => 'header_block',
         'footer'  => 'footer',
     ],
@@ -52,7 +76,7 @@ return array(
     'order' => [
 
         'main'    => 'home',
-        'content' => 'order',
+        'content' => 'toys_block;order',
         'header'  => 'header_block',
         'footer'  => 'footer',
     ],
